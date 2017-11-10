@@ -1,0 +1,85 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*全局-------------------*/
+body,div,span,ul,li,ol,dl,dt,dd,em,i,h1,h2,h3,h4,h5,h6,p,input,a,img,button{ margin:0; padding:0; list-style:none; border:0;}
+em,i{ font-style:normal;}
+html{font-size:20px;line-height:1.35rem;}
+body{font-family:"微软雅黑", Tahoma; color:#000; max-width:640px; margin:0 auto;}
+img{ width:100%; display:block;}
+input[type="button"]{-webkit-appearance: none;}
+a{ color:#000; text-decoration:none;}
+.bbg{padding:0.5rem 2%;}
+.bbg p{ font-size:0.7rem; text-align:center; line-height:1.35rem;}
+.zd_con{ background: #c0eef3; padding:1rem 3%;}
+.zd_con .zdt span{ display: block; margin-bottom: 0.75rem;}
+.zd_con .zdt span input{  background: #fff; padding:0.5rem 5%; width: 90%; font-size: 1rem; color: #333; line-height: 1.75rem; border-radius: 0.35rem;}
+.zd_con .zdt  a{ display: block; line-height:2rem; padding:0.5rem; text-align: center; color: #fff; font-size: 1.25rem; background-image: -webkit-linear-gradient(top,#fe7202,#f30f0d);background-image: -moz-linear-gradient(top,#fe7202,#f30f0d); border-radius: 0.5rem;} 
+.zd_con .zdt  button{ display: block; width:100%;line-height:2rem; padding:0.5rem; text-align: center; color: #fff; font-size: 1.25rem; background-image: -webkit-linear-gradient(top,#fe7202,#f30f0d);background-image: -moz-linear-gradient(top,#fe7202,#f30f0d); border-radius: 0.5rem;}
+.xx{    width: 100%;
+    font-size: 1.5rem;
+    height: 65px;
+    border-radius: 0.5rem;
+    background: red;
+    color: #fff;}
+.zdp{padding:0.75rem 3% 0;}
+.zdp p{ text-align: center; line-height: 1.75rem; color: #4684ff;}      
+.zdp p b{ color: red; font-weight: normal; margin: 0 0.25rem;}      
+.zdc1{ position: relative;}      
+.zdc1 div{position: absolute; width: 80%; left: 10%; top:30%; overflow: hidden; bottom: 10%;}        
+.zdc1 table{ width: 100%;}       
+.zdc1 td{font-size: 0.85rem; color: #333; line-height: 1.75rem; text-align: center;}       
+.zdc1 td .red{ color: red;}
+.zdc1 td .green{ color: green;}      
+.zdc2{ margin-bottom: 0.75rem;}       
+
+.conx,.cjc{ position: fixed; width:100%; height: 100%; top:0; left: 0; display: none;}
+.bg{ background: rgba(0,0,0,.7); position: absolute; width: 100%; height: 100%; z-index: 1; }
+.cjxa,.cjxa{ position: relative; z-index: 2; height: 100%;  max-width: 640px; margin: 0 auto;  display: flex;display:-webkit-flex; align-items:  center; justify-content: center;-webkit-align-items:  center; -webkit-justify-content: center;}
+.tcc{ background: #fff; width: 82%; padding:0.75rem 5% 1.25rem; border-radius: 0.5rem;}
+.cjx{ background: #fff; width: 82%; padding:1.5rem 5%; border-radius: 0.5rem;}
+.cjx p{font-size: 1.1rem; color: #333; line-height: 2rem;}
+.cjx span{ display: block; height: 1.5rem; background: #eee; width: 100%;border-radius: 0.75rem; margin-top: 0.5rem;}
+.cjx span em{ display: block;height: 1.5rem; background-image:-webkit-linear-gradient(left,#fe7202,#f30f0d);border-radius: 0.75rem;}
+.tcc .th{ overflow: hidden; margin-bottom: 0.35rem; }
+.tcc .th a{ display: block; width: 1.5rem; height: 1.5rem; float: right;}
+.tcc .tc{ padding:0.5rem 0; border-top: 1px dashed #eee;border-bottom: 1px dashed #eee;}
+.tcc .tc p{ text-align: center; font-size: 1rem; color: #333; line-height: 1.75rem;}
+.tcc .tc p input,.tcc .tc .p2{ color: #F30F0D;}
+.tcc .tc p input{  width: 5rem; font-size: 1rem; text-align: center;}
+.tcc .tp .but{ display: block; background: #e11313; color: #fff; text-align: center; font-size: 1.1rem; line-height: 3rem; border-radius: 0.3rem; width: 30%;} 
+.tcc .tp{ display: flex;display:-webkit-flex; align-items: center; justify-content: space-between;-webkit-align-items: center; -webkit-justify-content: space-between; margin-top: 0.75rem;}
+.tcc .tp input{ border: 1px solid #eee; width: 55%; padding:0 5%; font-size: 1rem; color: #333; line-height:3rem;border: 1px solid #eee; box-shadow: none;}
+
+
+
+
+
+
+
+
+
+
+/*
+                         _(\_/) 
+                         ,((((^`\
+   、̶J̶Howe̶°          ((((  (6 \ 
+                      ,((((( ,    \
+  ,,,_              ,(((((  /"._  ,`,
+ ((((\\ ,...       ,((((   /    `-.-'
+ )))  ;'    `"'"'""((((   (      
+(((  /            (((      \
+ )) |                      |
+((  |        .       '     |
+))  \     _ '      `t   ,.')
+(   |   y;- -,-""'"-.\   \/  
+)   / ./  ) /         `\  \
+   |./   ( (           / /'
+   ||     \\          //'|
+   ||      \\       _//'||
+   ||       ))     |_/  ||
+   \_\     |_/          ||
+   `'"                  \_\
+                        `'"
+*/
